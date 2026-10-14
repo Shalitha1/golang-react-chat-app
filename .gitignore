@@ -1,0 +1,27 @@
+
+# Node.js dependencies
+node_modules/
+
+# React build files
+frontend/build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Go build files
+backend/*.exe
+backend/*.test
+backend/coverage.out
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
